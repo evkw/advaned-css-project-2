@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
-import './style.css';
+import './sass/main.scss';
 
 interface AppProps { }
 interface AppState {
@@ -19,10 +19,22 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+       <div className="container">
+        <header className="header">
+          Header part
+        </header>
+
+        <div className="content">
+          <nav className="nav-bar">
+
+          </nav>
+
+          <main className="hotel-view">
+
+          </main>
+        </div>
+
+       </div>
       </div>
     );
   }
