@@ -53,7 +53,41 @@ class App extends Component<AppProps, AppState> {
         </header>
 
         <div className="content">
-          <nav className="nav-bar">
+          <nav className="sidebar">
+
+            <ul className="side-nav">
+              <li className="side-nav__item">
+                <a href="#" className="side-nav__link">
+                  <Icon className="side-nav__icon" icon="icon-home" />
+                </a>
+                <span>Hotel</span>
+              </li>
+
+              <li className="side-nav__item">
+                <a href="#" className="side-nav__link">
+                  <Icon className="side-nav__icon" icon="icon-aircraft-take-off" />
+                </a>
+                <span>Flight</span>
+              </li>
+
+              <li className="side-nav__item">
+                <a href="#" className="side-nav__link">
+                  <Icon className="side-nav__icon" icon="icon-key" />
+                </a>
+                <span>Car Rental</span>
+              </li>
+
+              <li className="side-nav__item">
+                <a href="#" className="side-nav__link">
+                  <Icon className="side-nav__icon" icon="icon-map" />
+                </a>
+                <span>Tours</span>
+              </li>
+            </ul>
+
+            <div className="legal">
+                &copy; 2019 by trillo. All rights reserved.
+            </div>
 
           </nav>
 
