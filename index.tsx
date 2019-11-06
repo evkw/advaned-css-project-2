@@ -96,7 +96,41 @@ class App extends Component<AppProps, AppState> {
           </nav>
 
           <main className="hotel-view">
+            <div className="gallery">
+              <figure className="gallery__item">
+                <img src="https://firebasestorage.googleapis.com/v0/b/evdev-demos.appspot.com/o/Trillo%2Fhotel-1.jpg?alt=media&token=300a5cba-17ee-4670-b526-64a8b1bf9311" className="gallery__photo" alt="Photo of hotel 1"/>
+              </figure>
+               <figure className="gallery__item">
+                <img src="https://firebasestorage.googleapis.com/v0/b/evdev-demos.appspot.com/o/Trillo%2Fhotel-2.jpg?alt=media&token=f9d003e6-43c4-4a1e-96d0-2d8d78708b55" className="gallery__photo" alt="Photo of hotel 1"/>
+              </figure>
+               <figure className="gallery__item">
+                <img src="https://firebasestorage.googleapis.com/v0/b/evdev-demos.appspot.com/o/Trillo%2Fhotel-2.jpg?alt=media&token=f9d003e6-43c4-4a1e-96d0-2d8d78708b55" className="gallery__photo" alt="Photo of hotel 1"/>
+              </figure>
+            </div>
 
+            <div className="overview">
+              <h1 className="overview__heading">
+                  Hotel Las Palmas
+              </h1>
+
+              <div className="overview__stars">
+                  <Icon className="overview__icon-star" icon="icon-star" />
+                  <Icon className="overview__icon-star" icon="icon-star" />
+                  <Icon className="overview__icon-star" icon="icon-star" />
+                  <Icon className="overview__icon-star" icon="icon-star" />
+                  <Icon className="overview__icon-star" icon="icon-star" />
+              </div>
+
+              <div className="overview__location">
+                  <Icon className="overview__icon-location" icon="icon-location-pin" />
+                  <button className="btn-inline">Albufeira, Portugal</button>
+              </div>
+
+              <div className="overview__rating">
+                  <div className="overview__rating-average">8.6</div>
+                  <div className="overview__rating-count">429 votes</div>
+              </div>
+            </div>
           </main>
         </div>
 
