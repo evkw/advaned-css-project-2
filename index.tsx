@@ -56,32 +56,36 @@ class App extends Component<AppProps, AppState> {
           <nav className="sidebar">
 
             <ul className="side-nav">
-              <li className="side-nav__item">
+              <li className="side-nav__item side-nav__item--active">
                 <a href="#" className="side-nav__link">
                   <Icon className="side-nav__icon" icon="icon-home" />
+                  <span>Hotel</span>
                 </a>
-                <span>Hotel</span>
+                
               </li>
 
               <li className="side-nav__item">
                 <a href="#" className="side-nav__link">
                   <Icon className="side-nav__icon" icon="icon-aircraft-take-off" />
+                  <span>Flight</span>
                 </a>
-                <span>Flight</span>
+                
               </li>
 
               <li className="side-nav__item">
                 <a href="#" className="side-nav__link">
                   <Icon className="side-nav__icon" icon="icon-key" />
+                  <span>Car Rental</span>
                 </a>
-                <span>Car Rental</span>
+                
               </li>
 
               <li className="side-nav__item">
                 <a href="#" className="side-nav__link">
                   <Icon className="side-nav__icon" icon="icon-map" />
+                  <span>Tours</span>
                 </a>
-                <span>Tours</span>
+                
               </li>
             </ul>
 
